@@ -1,0 +1,56 @@
+body {
+    background-color: #f4f4f4;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dice-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.dice {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.dice:hover {
+    transform: scale(1.1);
+}
+
+.dice img {
+    width: 100px;
+    height: 100px;
+}
+
+.roll-btn {
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: white;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.roll-btn:hover {
+    background: #0056b3;
+}
